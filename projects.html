@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            background-image: url('y.jpg');
+            background-size:cover;
+            background-repeat:repeat-y;
+           
+        }
+     
+        .section1 {
+            position: relative;
+            font-size: larger;
+            font-size: 4vw;
+            color: purple;
+            -webkit-text-stroke: 0.3vw purple;
+            text-transform: uppercase;
+            margin-top: -60px;
+           }
+           .section1::before{
+             content: attr(data-text);
+             position: absolute;
+             top: 0;
+             left: 0;
+             width: 0;
+             height: 100%;
+             color: purple;
+             -webkit-text-stroke: 0vw gray;
+             border-right: 2px solid purple;
+             overflow: hidden;
+             animation: animate 6s linear infinite;
+             animation-fill-mode: forwards;
+           }
+           
+           @keyframes animate{
+             0%,10%,100%{
+                 width: 0;
+             }
+             70%,90%{
+                 width: 100%;
+             }
+           }
+           .bu{
+            background-color:  rgb(113, 80, 132);
+            display: flex;
+            color: white;
+            
+            text-underline-offset: none;
+        }
+        
+            .b1 {
+                background-color: black; /* Green */
+               
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: none;
+              }
+       
+        .bu a:hover{
+            color: rgb(97, 176, 185);
+
+        }
+        .bu ul li{
+            list-style: none;
+        }
+        ul li a{
+            color: white;
+            text-decoration: none;
+           
+        }
+        .purple{
+            color: rgb(204, 204, 168);
+            line-break:strict;
+        }
+        .food{
+            height: 250px;
+            width: 500px;
+        }
+        .github{
+            height: 80px;
+            width: 80px;
+            
+        }
+        .intern{
+            margin-top: -45px;
+        }
+        footer{
+            color: black;
+            background-color:rgb(188, 202, 116);
+            font-weight: bolder;
+          }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alankrita|Portfolio</title>
+</head>
+<body>
+    <div class="bu">
+        <ul>
+           <li>
+             <button class="b1"><a href="index.html">BACK </a></button>
+           </li> 
+         </ul>
+     </div>
+    <div class="section1" data-text="PROJECTS&INTERSHIPS">
+        <h3>___________________</h3>
+    </div>
+    <div class="intern">
+        <h1>INTERSHIPS:
+        </h1>
+        <ul>
+            <li><span class="purple">FRONTEND DEVELOPER AT HACKWORMS TECHNOLOGIES:</span> <br>
+            Time Span:JUNE 2023-AUGUST 2023 <br>
+            Description- Working on frontend technologies using HTML, CSS and JavaScript under the guidance of senior developer and built many projects.</li>
+        </ul>
+    </div>
+    <div class="project">
+        <h1>PROJECTS:</h1>
+        <ul>
+         <li><span class="purple">FOODYARD: Food Waste Management System </span> <br>
+                Technology: HTML, CSS, JavaScript, bootstrap, react. <br>
+                Description: Our responsibility is to make food available to the needy one’s that has been left abandoned after a party or a function to avoid food wastage through a website. <br> <br>
+               
+               
+                </li>
+                <li> <span class="purple">TO DO LIST APP:
+
+                </span> <br>
+                Technology: HTML, CSS, JavaScript, bootstrap, react, nodejs. <br>
+                Description: This is to do list app that help the users to be attentive, productive and consistent with their work. <br> <br>
+            </li>
+            <li>
+                <span class="purple">RANDOM GUESS GAME:</span> <br>
+                Technology: Java, HTML, CSS, JavaScript. <br>
+Description: This project is a mind refreshing game in which a user enters a number and it is checked if the computer has guessed the same number! <br> <br>
+
+
+            </li>
+        </ul>
+        You can check all my projects along with their source code on my github profile given below: <br>
+        <h3>
+           <a href="https://github.com/alankrita17"><center> <img src="github.png" class="github" alt=""></a> </center>
+        </h3>
+    </div>
+    <footer>
+        Designed and developed by-Alankrita Srivastava. <br>
+        Copyright © 2023 AS
+        
+        </footer>
+   
+
+   
+</body>
+</html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alankrita- Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+           
+            
+            color: white;
+            font-family: 'Poppins', sans-serif;
+           margin-top: 0px;
+            
+        }
+       
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height:100px ;
+            background-color: rgb(113, 80, 132);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a:hover{
+            color: rgb(130, 130, 225);
+            font-size: 1.02rem;
+        }
+        main hr{
+            border: 0;
+            background-color: rgb(233, 172, 248);
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left{
+            font-size: medium;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            margin: 90px 0;
+            align-items: center;
+           
+        }
+        .firstSection > div{
+           width: 40%;
+        }
+        .leftSection{
+         margin: 50px 0;
+         width:40%;
+         font-size: 2rem ;     
+        }
+        .leftSection .buttons{
+            padding: 10px 0px;
+        }
+
+        .leftSection .btn{
+            padding: 2px;
+            background-color:rgb(73, 74, 184) ;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .rightSection{
+            
+
+        }
+        .rightSection img{
+        width: 80%;
+        margin: 50px 0;
+           
+        }
+
+        .purple{
+            color: rgb(188, 202, 116);
+            font: bold;
+            font-weight: bold;
+        }
+        .gray{
+            color:gray  ;
+            font: bold;
+            font-weight: 550;
+        }
+        #element{
+            color: rgb(188, 202, 116);
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondSection h1{
+            font-size:1.9rem ;
+        }
+        .secondSection .box{
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+           
+            display: flex;
+        }
+        .secondSection .vertical{
+            height: 55px;
+            width: 1px;
+            background-color: white;
+            margin:0px 115px ;
+
+        }
+        .secondSection .imgs{
+               width:40px;
+               margin-bottom: -25px ;
+               margin-left: 13px;
+        }
+        .secondSection .vertical-text{
+            margin-left: -50px;
+            margin-top: 30px;
+            position: relative;
+            width: 175px;
+            font-size: smaller;
+            
+        }
+        .secondSection .box .vertical a{
+            color:white;
+
+        } 
+        .secondSection .box .vertical a:hover{
+            color:rgb(130, 130, 225);
+            
+        } 
+        svg:not(:root) {
+            overflow-clip-margin: content-box;
+            overflow: hidden;
+        }
+        .bgimg{
+            background-image: url('y.jpg');
+            background-size:contain;
+            background-repeat:repeat-y;
+           
+            
+            
+        }
+        main{
+           margin: 0px 0px; 
+        }
+        .in{
+            color: rgb(233, 172, 248);
+        }
+       .buttons .btn{
+            background-color:  rgb(113, 80, 132);
+            color: white;
+            border: none;
+        
+          
+        }
+        .intro{
+            margin-left: 85px;
+            margin-right: 70px;
+        }
+        footer{
+            color: black;
+            background-color:rgb(188, 202, 116);
+            font-weight: bolder;
+          }
+          div .footer-second{
+            margin-left: 300px;
+          }
+
+    </style>
+</head>
+<body class="bgimg">
+    
+
+    
+    <header><nav>
+        <div class="left">Alankrita's Portfolio</div>
+        <div class="right"></div>
+        <ul>
+            <li><a href="/">Home</a></li> 
+            <li> <a href="about.html"><li>About</a>
+            </li> 
+            <li> <a href="projects.html"><li>Projects&Internships</a></li> 
+            <li> <a href="contact.html"><li>Contact Me</a></li> 
+        </ul>
+    </nav></header>
+   
+    <main >
+        
+        <section class="firstSection">
+             <div class="leftSection">
+            <b>Hey, I am  <div class="purple">Alankrita!</div>
+                and I am a
+
+            </b>  
+              <span id="element"></span>
+              <div class="buttons">
+                <a href="https://drive.google.com/file/d/1yGuKNIokHB9eDK7NH8yqjfBxS-lRoTmD/view?usp=sharing">
+                <button class="btn"> Download Resume </button></a>
+              </div>
+            </div>
+              <div class="rightSection">
+              <img src="bg.png" alt=""
+              height:70%> 
+            </div>
+        </section>  
+        <hr>
+        <div class="intro">
+            <h2>LET ME <span class="in">INTRODUCE</span> MYSELF</h2> <br>
+           <b> Welcome to my Portfolio.
+            I got into front end development two years ago because it was a form of programming that let me visualize my progress and results in a quicker and more literal way than other types of programming. While I initially tried it out as a test run to see if I'd be into programming in general I fell in love with the process and I've been doing it ever since. 🤷‍♂️
+    <br> <br>
+    I am fluent in classics like Java, Javascript and Python.
+    <br>
+    <br>
+    
+    My field of Interests are building new  Web Technologies and Products.</b>
+    <br> <br> <br> <br>
+        </div>
+         <section class="secondSection">
+            <span class="gray"> <b>What I have done so far</b></span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical"> 
+                    <img class="imgs" src="web.png" alt="">
+                    <div class ="vertical-text"><h3> <a href="Alankrita Srivastava Offer Letter.pdf">Hackworms Technologies</a>
+                    </h3>Front End Web Developer Time Span->June'23-Aug'23
+                    </div>
+                </div>
+                <div class="vertical"> </div>
+                <div class="vertical"> </div>
+                <div class="vertical"> </div>
+
+            </div>
+            <div class="lastline"></div>
+         </section>
+        
+    </main>
+
+
+
+
+    <footer>
+        <div class="flex">
+            <div class="footer-first"></div>
+           
+                Designed and developed by-Alankrita Srivastava
+                
+
+            <div class="footer-second"></div>
+            Copyright © 2023 AS
+            <div class="footer-third"></div>
+            <div class="footer-fourth"></div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['B.Tech Graduate','Web Developer', 'S/W Engineer'],
+          typeSpeed: 50,
+        });
+      </script>
+   
+    
+      
+</body>
+</html>
